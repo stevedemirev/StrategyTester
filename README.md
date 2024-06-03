@@ -26,13 +26,14 @@ If using Linux, use the following commands:
 ```
 
 Once the program is running, select an option given:
-    - 1: Backtest strategies using Historical Financial Data for the S&P 500 ($SPY)
-    - 2: Backtest strategies using Historical Financial Data for a specific stock you input (i.e $MSFT, $AAPL, $TSLA)
-    - 3: View the comparative results of each strategy tested against the others using data from each individual stock from the S&P 500.
+- 1: Backtest strategies using Historical Financial Data for the S&P 500 ($SPY)
+- 2: Backtest strategies using Historical Financial Data for a specific stock you input (i.e $MSFT, $AAPL, $TSLA)
+- 3: View the comparative results of each strategy tested against the others using data from each individual stock from the S&P 500.
 
-  Next input how far back your backtest will be:
-    - End date will always be today
-    - Start date will be based in years before current day.
+Next input how far back your backtest will be:
+- End date will always be today
+- Start date will be based in years before the current day.
+
 
 I hope you find this program somewhat interesting. Please be sure to comment any errors, miscalculations, or bugs.
 Thank you!
