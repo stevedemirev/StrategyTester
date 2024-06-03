@@ -5,7 +5,7 @@ This program uses financial data from Yahoo! Finance in order to simulate the ra
 
 ### Purpose:
 The purpose of this program is to view the rate of return from specific strategies. 
-The strategies tested in this program are a Lump-sum investment of $100,000 (Buy and Hold), a Dollar-Cost-Averaging investment strategy, and a custom strategy which you can implement to view the rate of return on.
+The strategies tested in this program are a Lump-sum investment of $100,000 (Buy and Hold), a Dollar-Cost-Averaging investment strategy of $100,000 spread evenly between the numbers of days tested, and a custom strategy which you can implement to view the rate of return using $100,000.
 
 
 ### How To Use:
