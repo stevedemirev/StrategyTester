@@ -1,0 +1,2 @@
+# StrategyTester
+Simple Backtesting program
