@@ -23,9 +23,9 @@ If on linux, use the following commands:
   python3 -m pip install yfinance
   python3 -m pip install datetime
   python3 -m pip install time
+```
 
-
-  Once the program is running, select an option given:
+Once the program is running, select an option given:
     *1: Backtest strategies using Historical Financial Data for the S&P 500 ($SPY)
     *2: Backtest strategies using Historical Financial Data for a specific stock you input (i.e $MSFT, $AAPL, $TSLA)
     *3: View the comparative results of each strategy tested against the others using data from each individual stock from the S&P 500.
