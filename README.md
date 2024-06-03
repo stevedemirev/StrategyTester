@@ -10,13 +10,13 @@ The strategies tested in this program are a Lump-sum investment of $100,000 (Buy
 
 ### How To Use:
 First install the dependencies used: 
-  *Numpy
-  *Pandas
-  *YFinance
-  *Datetime
-  *Time
+  - Numpy
+  - Pandas
+  - YFinance
+  - Datetime
+  - Time
 
-If on linux, use the following commands:
+If using Linux, use the following commands:
 ```sh
   python3 -m pip install numpy
   python3 -m pip install pandas
