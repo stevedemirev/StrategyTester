@@ -1,10 +1,7 @@
-import requests
 import pandas as pd
 import numpy as np
 import yfinance as yf
 import datetime
-from pandas import Timestamp
-import matplotlib.pyplot as plt
 import time
 
 class Backtest:
@@ -110,9 +107,6 @@ def read_company_tickers():
     return df['Symbol'].to_list()
         
 def main():
-#ticker = input("Input ticker: ")
-# start_date = input("Input starting date: ")
-    #ticker = "SPY"
     choice = input("Enter 1 for SPY; Enter 2 for a specific ticker; Enter 3 for entire S&P 500; Anything else to quit: ")
     if choice == "1":
         years = int(input(f"Please enter the number of years to backtest from: "))
@@ -141,8 +135,11 @@ def main():
         count_strategies(tickers,start_date,end_date)
     else:
         quit()
+
+if __name__ == "__main__":
+    main()
     
-    
+# Code below was modified 
 """    end_date = datetime.date.today()
     time_delta = datetime.timedelta(days=20*365.25) # Modify coefficient to be input if you want
     start_date = end_date - time_delta
@@ -155,9 +152,9 @@ def main():
     #print(f"DCA RoR: {dca_ror} ; DCA Final Value: {dca_fv}\n")
     #print(f"Custom Strategy RoR: {cust_ror} ; Custom Strategy Final Value: {cust_fv}")"""
     
-if __name__ == "__main__":
-    main()
-        
+
+   
+# Original Implementation     
 """
 ### Get Data from YFinance
 #ticker = input("Input ticker: ")
